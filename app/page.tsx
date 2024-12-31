@@ -5,6 +5,7 @@ import Temperature from "./Components/Temperature/Temperature";
 import Sunset from "./Components/Sunset/Sunset";
 import LegacyWinds from "./Components/LegacyWinds/Winds";
 import Mapbox from "./Components/Mapbox/Mapbox";  // Import Mapbox directly
+import Map from "./Components/Mapbox/CallingMapbox";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
          
           <div className="flex-1 flex flex-col gap-4">
             <LegacyTabs />
-            <Mapbox lat={28.7} lon={77.1} /> 
+            <Map lat={28.7} lon={77.1} /> 
           </div>
 
           <div className="flex-1">
