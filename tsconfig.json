@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/utils/misc.js", "app/Components/zodSchema/schema.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/utils/misc.js", "app/Components/zodSchema/schema.ts", "components/ui/calendar.tsx"],
   "exclude": ["node_modules"]
 }
