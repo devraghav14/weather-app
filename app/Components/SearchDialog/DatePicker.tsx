@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import moment from "moment";
 import { Calendar as CalendarIcon } from "lucide-react";
